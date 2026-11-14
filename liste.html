@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html lang="de"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Chronos – Einkaufsliste öffnen</title>
+<style>body{font-family:system-ui,Segoe UI,Roboto,sans-serif;max-width:560px;margin:40px auto;padding:0 20px;color:#1d2a12;line-height:1.55;text-align:center}
+h1{color:#3a6b19}a.knopf{display:inline-block;margin-top:18px;padding:14px 26px;border-radius:28px;background:#3a6b19;color:#fff;text-decoration:none;font-weight:700;font-size:18px}</style></head>
+<body>
+<h1>Einkaufsliste in Chronos öffnen</h1>
+<p>Jemand hat dir eine gemeinsame Einkaufsliste freigegeben.</p>
+<a class="knopf" id="oeffnen" href="#">In Chronos öffnen</a>
+<p style="margin-top:28px;font-size:14px;color:#555">Dafür muss die App Chronos auf diesem Handy installiert und mit der Gmail-Adresse angemeldet sein, für die die Liste freigegeben wurde.</p>
+<script>
+var id = new URLSearchParams(location.search).get('id') || '';
+var ziel = 'intent://einkauf?id=' + encodeURIComponent(id) + '#Intent;scheme=chronos;package=de.stkgp2.termin_app;end';
+document.getElementById('oeffnen').href = ziel;
+if (id) { setTimeout(function(){ location.href = ziel; }, 300); }
+</script>
+</body></html>
