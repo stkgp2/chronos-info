@@ -2,21 +2,131 @@
 <html lang="de"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
 <title>Chronos by stk</title>
 <style>body{font-family:system-ui,Segoe UI,Roboto,sans-serif;max-width:680px;margin:40px auto;padding:0 20px;color:#1d2a12;line-height:1.55}
-h1{color:#3a6b19;margin-bottom:4px}.sub{color:#6aa03a;font-weight:600;margin-top:0}a{color:#3a6b19}</style></head>
+h1{color:#3a6b19;margin-bottom:4px}.sub{color:#6aa03a;font-weight:600;margin-top:0}a{color:#3a6b19}
+details{border:1px solid #cfe0bd;border-radius:10px;margin:8px 0;padding:6px 12px;background:#f6faf1}
+summary{font-weight:700;color:#3a6b19;cursor:pointer;padding:4px 0}
+li{margin:6px 0}.hinweis{color:#666}</style></head>
 <body>
 <h1>Chronos</h1><p class="sub">by stk ©</p>
 <p>Chronos ist eine private Termin-App für Android. Sie zeigt den eigenen Google Kalender an, erinnert an Termine,
-Tagesinfos und Geburtstage (auch als Alarm) und ermöglicht Fotos und Dateien als Anhang.</p>
+Tagesinfos und Geburtstage (auch als Alarm), verwaltet To-dos und eine gemeinsame Einkaufsliste und ermöglicht Fotos und Dateien als Anhang.</p>
 <p>Die App wird privat genutzt und nicht verkauft. Es gibt keine Werbung.</p>
-<h2>Erste Schritte</h2>
-<ol>
-<li><b>Mit Google anmelden</b> – Chronos nutzt deinen eigenen Google Kalender. Deine Termine bleiben dort.</li>
-<li><b>Erlaubnisse</b> – Benachrichtigungen und „Wecker &amp; Erinnerungen“ erlauben, damit Erinnerungen pünktlich kommen.</li>
-<li><b>Keine doppelten Meldungen</b> – Chronos erinnert an alle Termine, auch an solche, die Gmail oder andere Apps eintragen (ohne eigene Erinnerung: 1 Tag vorher). Damit nichts doppelt kommt, die Benachrichtigungen der Google-Kalender-App ausschalten: in Chronos Menü → „Töne &amp; Alarm“ → „Google-Kalender-Meldungen ausschalten“, oder nur für dein Konto in der Google-Kalender-App → Einstellungen → dein Konto → Benachrichtigungen.</li>
-<li><b>Notschalter</b> – Soll wieder die Google-Kalender-App erinnern: Menü → „Töne &amp; Alarm“ → „Notschalter: Google meldet Termine“ einschalten und die Google-Meldungen wieder einschalten.</li>
-<li><b>Akku-Optimierung</b> – Menü → „Töne &amp; Alarm“ → „Akku-Optimierung ausschalten“, damit Android Chronos nicht schlafen legt.</li>
-<li><b>Feiertage &amp; Ferien</b> – Menü → „Feiertage &amp; Ferien“ → Bundesland wählen.</li>
-</ol>
+<h2>Anleitung</h2>
+<p class="hinweis">Dieselbe Anleitung steht in der App unter Menü (☰) → „Programmanleitung“.</p>
+<details open><summary>Erste Schritte</summary>
+<ul>
+<li>Mit Google anmelden – Chronos nutzt deinen eigenen Google Kalender. Deine Termine bleiben dort, es gibt keinen fremden Server.</li>
+<li>Erlaubnisse zulassen. Prüfen: Menü (☰ oben links) → „Töne &amp; Alarm“ → „Erlaubnisse prüfen“. Dort steht ✓ oder ✗ für Benachrichtigungen, genaue Wecker, Vollbild-Alarm und Akku-Optimierung – antippen führt direkt zur richtigen Android-Einstellung.</li>
+<li>Menü → „Feiertage &amp; Ferien“ → dein Bundesland antippen.</li>
+<li>Damit nichts doppelt kommt: Menü → „Töne &amp; Alarm“ → „Google-Kalender-Meldungen ausschalten“. Chronos erinnert dann an alle Termine aus dem Google Kalender (auch von Gmail oder Claude eingetragene); Termine ohne eigene Erinnerung meldet Chronos 1 Tag vorher.</li>
+</ul></details>
+<details><summary>Die vier Bereiche unten</summary>
+<ul>
+<li>Demnächst: die nächsten 30 Tage als Karten (Heute, Morgen, in X Tagen), oben Countdowns.</li>
+<li>Kalender: Tagesliste oder Monatsraster.</li>
+<li>To-dos: Aufgaben – der Arbeitsbereich.</li>
+<li>Einkauf: gemeinsame Einkaufsliste.</li>
+</ul></details>
+<details><summary>Kalender</summary>
+<ul>
+<li>Umschalter oben: Tagesliste oder Monatsraster.</li>
+<li>Monat wechseln: den Monat mit dem Daumen zur Seite ziehen (er rastet beim Loslassen ein), oder die Pfeile ‹ ›. „Heute“ springt zurück, auf „Nov 26“ tippen wählt ein Datum.</li>
+<li>Tagesliste: ganz oben bzw. unten „… anzeigen“ hängt den Vor- bzw. Folgemonat an.</li>
+<li>Monatsraster: Tag antippen – darunter steht alles von diesem Tag. Zweimal antippen springt in die Tagesliste zu diesem Tag.</li>
+<li>Im Raster: „+3“ in der Ecke = so viele weitere Einträge; Urlaub &amp; Co. färben das Kästchen leicht ein.</li>
+<li>Ein To-do im Kalender antippen öffnet die To-do-Übersicht mit diesem To-do markiert – dort abhaken.</li>
+<li>Menü → „Suchen“ durchsucht alle Termine und Tagesinfos.</li>
+</ul></details>
+<details><summary>Termine</summary>
+<ul>
+<li>Im Kalender auf „+“ tippen oder einen leeren Tag antippen. Oben die Art wählen: Termin, Tagesinfo, Täglich oder To-do (ein Eintrag lässt sich so auch umwandeln).</li>
+<li>„Für wen“: freiwillig, z. B. Kinder oder Partnerin. Leer = eigener Termin.</li>
+<li>Erinnerungen: mehrere Zeitpunkte möglich, je als „Hinweis“ (normale Meldung) oder „Alarm“ (klingelt wie ein Wecker, auch auf dem Sperrbildschirm).</li>
+<li>Wiederholen: täglich, wöchentlich (Wochentage wählbar), monatlich, jährlich – mit Ende nach Anzahl oder Datum. Bei Serien fragt Chronos „Nur diesen“ oder „Alle“.</li>
+<li>Mikrofon an Titel und Notizen: tippen und sprechen.</li>
+<li>„Sagen statt tippen“: z. B. „Morgen 10 Uhr Zahnarzt in Neuwied, eine Stunde vorher erinnern“ – die KI füllt alles aus, du prüfst und speicherst.</li>
+<li>„Countdown“ einschalten (z. B. Urlaub): oben in „Demnächst“ steht dann „noch 12 Tage“.</li>
+<li>Kamera und Galerie hängen Fotos und Dateien an.</li>
+<li>„In To-do umwandeln“: lag der Termin schon zurück, ist das To-do zur nächsten vollen Stunde in 3–4 Stunden fällig.</li>
+</ul></details>
+<details><summary>Termin vom Foto, geteilt oder als Datei</summary>
+<ul>
+<li>Neuer Termin → „Termin vom Foto übernehmen“: Brief, Plakat oder Einladung fotografieren oder bis zu 3 Bilder (z. B. Screenshots) aus der Galerie wählen. Bei der Kamera danach „+ weiteres Foto“. Die KI liest Titel, Datum, Uhrzeit und Ort aus allen Bildern zusammen; die Fotos hängen dran. Bitte kurz prüfen.</li>
+<li>Aus WhatsApp, Mail oder Browser Text „teilen“ → Chronos → Termin, To-do oder Einkaufsliste wählen.</li>
+<li>Kalenderdateien (.ics, z. B. aus Buchungsbestätigungen) mit Chronos öffnen: wird übernommen.</li>
+<li>So übernommene Termine erinnern 1 Tag und 2 Stunden vorher.</li>
+</ul></details>
+<details><summary>Tagesinfos</summary>
+<ul>
+<li>Tagesinfos stehen ganztägig als kleines Kärtchen über dem Tag: Urlaub, Schichten, Krank, Tablette, Info, Geburtstag, Jubiläum. Feiertage und Schulferien kommen automatisch dazu.</li>
+<li>Geburtstag: „Wer hat Geburtstag?“, Jahrgang freiwillig – dann steht das Alter dabei. Alle Geburtstage sind gold, runde (30, 40, 50 …) mit Krone und zusätzlicher Erinnerung 2 Wochen vorher. Erinnerung am Tag um 9:00 Uhr.</li>
+<li>Geburtstage aus deinen Google-Kontakten und dem Google Kalender werden automatisch erkannt.</li>
+<li>Jubiläum (silber): z. B. „25 Jahre Firma“, jedes Jahr, Erinnerung um 9:00 Uhr am Tag und 1 Woche vorher.</li>
+<li>Menü → „Tagesinfos als Liste“: z. B. alle Urlaube oder alle Geburtstage der nächsten 12 Monate untereinander.</li>
+<li>Menü → „Schichtplan“: Wechselschicht einmal ab der Woche mit Frühschicht eintragen – Chronos schreibt Früh → Nacht → Spät (je Mo–Fr, 3-Wochen-Rhythmus) ohne Ende fort; Urlaub unterbricht den Rhythmus nicht. Andere Pläne (z. B. Conti) fotografieren, „Plan auslesen“, Vorschau prüfen, „Alle übernehmen“.</li>
+</ul></details>
+<details><summary>Tägliche Erinnerungen</summary>
+<ul>
+<li>Art „Täglich“: z. B. „Tabletten nehmen“ mit einer oder mehreren Uhrzeiten und Wochentagen, ohne Ende.</li>
+<li>„Im Kalender als kleines Symbol zeigen“ aus = nur die Erinnerung kommt, im Kalender steht nichts.</li>
+<li>Ausgeblendete wiederfinden: Monatsraster → Tag antippen. Unten steht sie blass mit „(ausgeblendet)“. Antippen öffnet sie – dort wieder einblenden, ändern oder löschen.</li>
+</ul></details>
+<details><summary>To-dos – Grundlagen</summary>
+<ul>
+<li>Abhaken: Kreis antippen – das To-do wird durchgestrichen und wandert nach „Erledigt“. Unten kurz „Rückgängig“. Kreis eines erledigten To-dos antippen = wieder offen.</li>
+<li>Mit Nachweis erledigen: To-do öffnen → „Erledigt …“ → Knopf 2 Sekunden halten; dabei „Was wurde gemacht?“ und ein Foto möglich.</li>
+<li>Schnell-Zeile oben: z. B. „Steuerberater anrufen morgen 10 Uhr !! #Arbeit @Vika“ und Enter. ! bis !!! = Wichtigkeit, #Liste, @Für wen; Datum und Uhrzeit erkennt Chronos.</li>
+<li>Im To-do: Wichtigkeit, Liste, Projekt, Für wen, Erledigen am (mit Uhrzeit, ganztägig oder „irgendwann“), Erinnerung, Teilschritte, Anhänge, Notizen.</li>
+<li>„Sagen statt tippen“ im neuen To-do: z. B. „Steuerberater anrufen, Freitag, wichtig, Liste Arbeit“.</li>
+<li>Überfällige To-dos stehen rot bei „Heute“ und oben in der Liste.</li>
+</ul></details>
+<details><summary>To-dos – Arbeiten</summary>
+<ul>
+<li>📁 Projekte: im To-do bei „Projekt“ einen Namen eintragen (z. B. Juliane). Oben „Projekte“ zeigt alle zusammen mit „2 von 5 erledigt“; „+“ legt ein To-do im Projekt an.</li>
+<li>Verlauf: im To-do kurze Einträge mit Datum, z. B. „angerufen, Rückruf Freitag“ – neueste oben.</li>
+<li>Kontakt: „Aus Kontakten“ wählen, dann mit einem Tipp anrufen (auch direkt aus der Liste). Telefonnummern und E-Mail-Adressen im Text werden erkannt.</li>
+<li>„Zeit dafür im Kalender einplanen“: legt einen Termin mit ⏱ an.</li>
+<li>⏳ Wartet auf: abgegeben (z. B. „Angebot von Mohrs“)? Bei „Wartet auf“ eintragen; mit Nachhaken erinnert Chronos ans Nachfragen.</li>
+<li>Nachhaken: erinnert erneut, bis das To-do erledigt ist.</li>
+<li>Wiederholen nach Erledigung: z. B. Filter wechseln 3 Monate nach dem letzten Mal – das nächste To-do entsteht beim Abhaken.</li>
+<li>E-Mail in Gmail „teilen“ → Chronos → To-do: Betreff wird Titel, Mailtext kommt in die Notizen.</li>
+</ul></details>
+<details><summary>To-dos – Überblick</summary>
+<ul>
+<li>☀ Mein Tag: morgens auswählen, was heute erledigt werden soll; Chronos schlägt Überfälliges, heute Fälliges und Wichtiges vor.</li>
+<li>In der Liste nach rechts wischen = zu „Mein Tag“, nach links wischen = „Später …“ (nur nach vorn verschieben).</li>
+<li>Sortieren &amp; Filtern (Knopf oben): Wichtigkeit, Fälligkeit oder A–Z; Filter nach Liste, Für wen, nur wichtige. „Filter merken“ legt einen eigenen Knopf an (lange drücken = löschen).</li>
+<li>Erledigt-Archiv (Kisten-Knopf oben): alle erledigten To-dos durchsuchen, mit „was wurde gemacht“ und Nachweisfoto.</li>
+<li>Widget: Startbildschirm lange drücken → Widgets → „Chronos To-dos“. Zeigt die heutigen und überfälligen To-dos, „+“ legt ein neues an.</li>
+</ul></details>
+<details><summary>Einkaufsliste</summary>
+<ul>
+<li>Eintippen, auch mehrere auf einmal: „Milch, Brot und Butter“.</li>
+<li>Mikrofon antippen und sprechen; nochmal tippen beendet das Zuhören.</li>
+<li>„Foto“: Screenshot (z. B. der Alexa-Einkaufsliste) oder Zettel – die KI liest die Artikel, du wählst aus, was übernommen wird. Was schon draufsteht, ist abgewählt; Abgehaktes wird weggelassen.</li>
+<li>„Teilen“: Liste mit Partner/in teilen (Gmail-Adresse) und Link per WhatsApp schicken – beide können eintragen und abhaken.</li>
+<li>Abgehaktes rutscht als „Im Wagen“ nach unten; lange drücken = ändern oder löschen.</li>
+</ul></details>
+<details><summary>Benachrichtigungen</summary>
+<ul>
+<li>Aus der Meldung: „Öffnen“, „In 10 Min. nochmal“ oder „Ok“; bei To-dos „Erledigt …“ und „Später …“.</li>
+<li>Morgen-Übersicht: jeden Morgen (Standard 7:00 Uhr) eine Meldung mit Terminen, Tagesinfos und offenen To-dos des Tages.</li>
+<li>Wochenrückblick: freitags 17:00 Uhr – diese Woche erledigt, noch offen, überfällig.</li>
+<li>Einstellen oder ausschalten: Menü → „Töne &amp; Alarm“ (dort auch Ton, Test-Alarm und „Nicht stören“-Ausnahme).</li>
+<li>Notschalter: Soll wieder die Google-Kalender-App erinnern, unter „Töne &amp; Alarm“ „Google meldet Termine“ einschalten.</li>
+</ul></details>
+<details><summary>Extras</summary>
+<ul>
+<li>Vorlagen: im Termin oder To-do oben das Lesezeichen „Als Vorlage speichern“. Neuer Eintrag → „Aus Vorlage“. Verwalten: Menü → „Vorlagen“.</li>
+<li>Papierkorb: nach dem Löschen kurz „Rückgängig“; später Menü → „Papierkorb“ → „Zurück“. Gelöschtes bleibt 30 Tage.</li>
+<li>Anhänge in Google Drive: Menü → „Anhänge in Google Drive“ → „Einschalten“. Fotos und Dateien liegen dann zusätzlich im Drive-Ordner „Chronos Anhänge“ und kommen auf einem neuen Handy wieder.</li>
+<li>Menü → „Nützliches“: Feiertage aller Bundesländer und Schulferien jedes Bundeslandes zum Nachschauen.</li>
+<li>Menü → „Jetzt aktualisieren“ holt sofort alles von Google (sonst automatisch etwa alle 30 Minuten).</li>
+</ul></details>
+<details><summary>Claude</summary>
+<ul>
+<li>Claude kann über den Google Kalender Termine, To-dos und Einkäufe für dich eintragen. Chronos zeigt sie beim nächsten Öffnen bzw. spätestens nach etwa 30 Minuten an und erinnert daran.</li>
+</ul></details>
 <p><a href="datenschutz.html">Datenschutzerklärung</a></p>
 <p>Kontakt: 5min@mail.com</p>
 </body></html>
